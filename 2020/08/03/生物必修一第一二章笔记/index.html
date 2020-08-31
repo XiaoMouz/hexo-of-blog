@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>生物必修一第一二章笔记 | 小莫のHome</title><meta name="description" content="一次新的尝试，放到网站上也方便自己存取，这是一轮复习啦"><meta name="keywords" content="学习笔记"><meta name="author" content="XiaoMouz"><meta name="copyright" content="XiaoMouz"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://www.kanjiantu.com/images/2020/08/31/0kvO9h.png"><link rel="canonical" href="https://hexo.mou.best/2020/08/03/%E7%94%9F%E7%89%A9%E5%BF%85%E4%BF%AE%E4%B8%80%E7%AC%AC%E4%B8%80%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="生物必修一第一二章笔记"><meta property="og:url" content="https://hexo.mou.best/2020/08/03/%E7%94%9F%E7%89%A9%E5%BF%85%E4%BF%AE%E4%B8%80%E7%AC%AC%E4%B8%80%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/"><meta property="og:site_name" content="小莫のHome"><meta property="og:description" content="一次新的尝试，放到网站上也方便自己存取，这是一轮复习啦"><meta property="og:image" content="https://www.kanjiantu.com/images/2020/08/31/0k9I38.jpg"><meta property="article:published_time" content="2020-08-03T15:19:25.000Z"><meta property="article:modified_time" content="2020-08-31T14:55:47.449Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.1.1',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2020-08-31 22:55:47'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 5.1.1"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="https://www.kanjiantu.com/images/2020/08/31/0kvbhX.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">6</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">6</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">5</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-check"></i><span> 好玩的</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" target="_blank" rel="noopener" href="https://arkn.lolicon.app/#/"><i class="fa-fw fas fa-graduation-cap"></i><span> 明日方舟工具箱</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://penguin-stats.cn/"><i class="fa-fw fas fa-server"></i><span> 企鹅物流数据统计</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="http://osu.mou.best/"><i class="fa-fw fas fa-credit-card"></i><span> Osu！签名生成器</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://codetool.mou.best/#/"><i class="fa-fw fas fa-toolbox"></i><span> 代码工具箱</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="http://ps.mou.best/"><i class="fa-fw fas fa-closed-captioning"></i><span> 在线PS工具</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="http://pan.mou.best/"><i class="fa-fw fas fa-download"></i><span> 网盘[维护]</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友联</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://about.mou.best/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div id="body-wrap"><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%94%9F%E7%89%A9%E5%BF%85%E4%BF%AE%E4%B8%80"><span class="toc-number">1.</span> <span class="toc-text">生物必修一</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B5%B0%E8%BF%9B%E7%BB%86%E8%83%9E"><span class="toc-number">1.1.</span> <span class="toc-text">走进细胞</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E6%98%AF%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84%E7%94%9F%E5%91%BD%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.1.1.</span> <span class="toc-text">细胞是最基本的生命系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E5%AD%A6%E8%AF%B4%EF%BC%88%E4%BB%85%E8%A7%A3%E9%87%8A%E4%BA%86%E7%BB%9F%E4%B8%80%E6%80%A7%EF%BC%89"><span class="toc-number">1.1.2.</span> <span class="toc-text">细胞学说（仅解释了统一性）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E6%A0%B8%E7%BB%86%E8%83%9E%E4%B8%8E%E7%9C%9F%E6%A0%B8%E7%BB%86%E8%83%9E"><span class="toc-number">1.1.3.</span> <span class="toc-text">原核细胞与真核细胞</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%84%E6%88%90%E7%BB%86%E8%83%9E%E7%9A%84%E5%88%86%E5%AD%90"><span class="toc-number">1.2.</span> <span class="toc-text">组成细胞的分子</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0%E5%92%8C%E5%8C%96%E5%90%88%E7%89%A9"><span class="toc-number">1.2.1.</span> <span class="toc-text">细胞中的元素和化合物</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E5%91%BD%E6%B4%BB%E5%8A%A8%E7%9A%84%E4%B8%BB%E8%A6%81%E6%89%BF%E6%8B%85%E8%80%85%E2%80%94%E2%80%94%E8%9B%8B%E7%99%BD%E8%B4%A8"><span class="toc-number">1.2.2.</span> <span class="toc-text">生命活动的主要承担者——蛋白质</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%81%97%E4%BC%A0%E4%BF%A1%E6%81%AF%E7%9A%84%E6%90%BA%E5%B8%A6%E8%80%85%E2%80%94%E2%80%94%E6%A0%B8%E9%85%B8"><span class="toc-number">1.2.3.</span> <span class="toc-text">遗传信息的携带者——核酸</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E4%B8%AD%E7%9A%84%E7%B3%96%E7%B1%BB%E5%92%8C%E8%84%82%E8%B4%A8"><span class="toc-number">1.2.4.</span> <span class="toc-text">细胞中的糖类和脂质</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E4%B8%AD%E7%9A%84%E6%97%A0%E6%9C%BA%E7%89%A9"><span class="toc-number">1.2.5.</span> <span class="toc-text">细胞中的无机物</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.</span> <span class="toc-text">细胞的基本结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E8%86%9C%E2%80%94%E2%80%94%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BE%B9%E7%95%8C"><span class="toc-number">1.3.1.</span> <span class="toc-text">细胞膜——系统的边界</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E5%99%A8%E2%80%94%E2%80%94%E7%B3%BB%E7%BB%9F%E5%86%85%E7%9A%84%E5%88%86%E5%B7%A5%E5%90%88%E4%BD%9C"><span class="toc-number">1.3.2.</span> <span class="toc-text">细胞器——系统内的分工合作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E%E6%A0%B8%E2%80%94%E2%80%94%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%8E%A7%E5%88%B6%E4%B8%AD%E5%BF%83"><span class="toc-number">1.3.3.</span> <span class="toc-text">细胞核——系统的控制中心</span></a></li></ol></li></ol></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://www.kanjiantu.com/images/2020/08/31/0k9I38.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">小莫のHome</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-check"></i><span> 好玩的</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" target="_blank" rel="noopener" href="https://arkn.lolicon.app/#/"><i class="fa-fw fas fa-graduation-cap"></i><span> 明日方舟工具箱</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://penguin-stats.cn/"><i class="fa-fw fas fa-server"></i><span> 企鹅物流数据统计</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="http://osu.mou.best/"><i class="fa-fw fas fa-credit-card"></i><span> Osu！签名生成器</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://codetool.mou.best/#/"><i class="fa-fw fas fa-toolbox"></i><span> 代码工具箱</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="http://ps.mou.best/"><i class="fa-fw fas fa-closed-captioning"></i><span> 在线PS工具</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="http://pan.mou.best/"><i class="fa-fw fas fa-download"></i><span> 网盘[维护]</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友联</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://about.mou.best/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">生物必修一第一二章笔记</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-08-03T15:19:25.000Z" title="发表于 2020-08-03 23:19:25">2020-08-03</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-08-31T14:55:47.449Z" title="更新于 2020-08-31 22:55:47">2020-08-31</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%AB%98%E4%B8%AD%E7%94%9F%E6%B6%AF/">高中生涯</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><p><strong>Head Pic: <a target="_blank" rel="noopener" href="https://www.pixiv.net/artworks/84007784">はなび / 猫斗めろん</a></strong><br><img src= "/img/loading.gif" data-lazy-src="https://s1.ax1x.com/2020/08/31/djCAaQ.png" alt="生物必修一.png"></p>
+<h1 id="生物必修一"><a href="#生物必修一" class="headerlink" title="生物必修一"></a>生物必修一</h1><h2 id="走进细胞"><a href="#走进细胞" class="headerlink" title="走进细胞"></a>走进细胞</h2><h3 id="细胞是最基本的生命系统"><a href="#细胞是最基本的生命系统" class="headerlink" title="细胞是最基本的生命系统"></a>细胞是最基本的生命系统</h3><ul>
+<li>生命活动离不开细胞<br>病毒：无细胞结构，必须寄生在活细胞中才能生活<br>单细胞生物：依靠单个细胞完成各种生命活动<br>多细胞生物：依靠多个细胞共同完成复杂的生命活动</li>
+<li>生命系统的结构层次<br>由小到大：细胞、组织、器官、系统、个体、种群、群落、生态系统、生物圈<br>注:植物没有系统层次，单细胞生物没有组织器官和系统三个层次<br>最早的生命形式是单细胞，最简单的生物且不属于生命系统的是病毒<br>生物繁殖和进化的基本单位是个体：生态系统由生物机器所处的无机环境构成</li>
+</ul>
+<h3 id="细胞学说（仅解释了统一性）"><a href="#细胞学说（仅解释了统一性）" class="headerlink" title="细胞学说（仅解释了统一性）"></a>细胞学说（仅解释了统一性）</h3><p>提出：1665年英国物理学家胡克发现细胞，1838年德国植物学家施莱登提出细胞是一切植物的基本构造，1839年德国动物学家施旺把细胞说扩大到动物界，1858年德国病理学魏尔肖提出“所有的细胞都来源于先前存在的细胞”的著名论断，至此细胞学说完全建立。<br>主要内容：<br>细胞是一个有机体，一切动植物都由细胞发育而来，并由细胞和细胞产物所构成。<br>细胞是一个相对独立的单位，既有它自己的生命，又对与其他细胞共同组成的整体的生命起作用。<br>新细胞是由老细胞分裂产生的。</p>
+<h3 id="原核细胞与真核细胞"><a href="#原核细胞与真核细胞" class="headerlink" title="原核细胞与真核细胞"></a>原核细胞与真核细胞</h3><p>原核与真核细胞属于有细胞结构的生物<br>而病毒是无细胞结构的，但它依旧属于生物</p>
+<h2 id="组成细胞的分子"><a href="#组成细胞的分子" class="headerlink" title="组成细胞的分子"></a>组成细胞的分子</h2><h3 id="细胞中的元素和化合物"><a href="#细胞中的元素和化合物" class="headerlink" title="细胞中的元素和化合物"></a>细胞中的元素和化合物</h3><ul>
+<li>组成细胞的元素与化合物<ul>
+<li>元素<br>大量元素（常量元素）：氧、碳、氢、氮、钙、磷、钾、硫、钠、氯、镁。<br>微量元素：铁、硼、砷、锰、铜、钴、钼等。</li>
+<li>化合物<br>无机物：水和无机盐<br>有机物：蛋白质、核酸、糖类和脂质</li>
+</ul>
+</li>
+<li>检测生物组织中的糖类、脂肪和蛋白质</li>
+</ul>
+<h3 id="生命活动的主要承担者——蛋白质"><a href="#生命活动的主要承担者——蛋白质" class="headerlink" title="生命活动的主要承担者——蛋白质"></a>生命活动的主要承担者——蛋白质</h3><ul>
+<li>组成蛋白质的氨基酸及其种类<ul>
+<li>必须氨基酸（8种）</li>
+<li>非必须氨基酸（12种）</li>
+</ul>
+</li>
+<li>蛋白质的结构功能及其多样性</li>
+</ul>
+<h3 id="遗传信息的携带者——核酸"><a href="#遗传信息的携带者——核酸" class="headerlink" title="遗传信息的携带者——核酸"></a>遗传信息的携带者——核酸</h3><ul>
+<li>核酸的种类、功能和分布<ul>
+<li>种类<ul>
+<li>RNA（单链）</li>
+<li>DNA（双链）</li>
+</ul>
+</li>
+<li>功能与分布</li>
+</ul>
+</li>
+<li>核酸的结构层次<br>核酸分为核糖核酸（RNA）和脱氧核糖核酸（DNA）两种；<br>RNA是由很多核糖核苷酸连接而成的长链,DNA也是由很多脱氧核糖核苷酸连接而成的长链；<br>RNA中的核糖核苷酸是由一分子含氮碱基（A,G,T,U）,一份子五碳糖（核糖）和一份子磷酸组成<br>DNA中的脱氧核糖核苷酸是由一分子含氮碱基（A,G,T,C）,一份子五碳糖（脱氧核糖）和一份子磷酸组成</li>
+</ul>
+<h3 id="细胞中的糖类和脂质"><a href="#细胞中的糖类和脂质" class="headerlink" title="细胞中的糖类和脂质"></a>细胞中的糖类和脂质</h3><ul>
+<li>糖类<ul>
+<li>功能</li>
+<li>元素组成</li>
+<li>分类<ul>
+<li>单糖</li>
+<li>二糖</li>
+<li>多糖</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>脂质<ul>
+<li>元素组成</li>
+<li>化学性质</li>
+<li>分类和功能<ul>
+<li>油脂</li>
+<li>类脂</li>
+<li>固醇<ul>
+<li>胆固醇</li>
+<li>维生素D</li>
+<li>性激素</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>生物大分子以碳链为骨架</li>
+</ul>
+<h3 id="细胞中的无机物"><a href="#细胞中的无机物" class="headerlink" title="细胞中的无机物"></a>细胞中的无机物</h3><ul>
+<li>细胞中的水<ul>
+<li>自由水</li>
+<li>结合水</li>
+</ul>
+</li>
+<li>细胞中的无机盐</li>
+<li>细胞是多种元素和化合物构成的生命系统<ul>
+<li>化学元素</li>
+<li>化合物</li>
+<li>在生命活动中的意义</li>
+</ul>
+</li>
+</ul>
+<h2 id="细胞的基本结构"><a href="#细胞的基本结构" class="headerlink" title="细胞的基本结构"></a>细胞的基本结构</h2><h3 id="细胞膜——系统的边界"><a href="#细胞膜——系统的边界" class="headerlink" title="细胞膜——系统的边界"></a>细胞膜——系统的边界</h3><ul>
+<li>细胞膜的成分<br>磷脂双分子层是构成细胞膜的的基本支架。细胞膜的主要成分是蛋白质和脂质，含有少量糖类。</li>
+<li>细胞膜的功能<br>1.将细胞与外界的环境分隔开<br>2.控制物质进出细胞,即细胞膜的选择透过性<br>3.进行细胞间的信息交流</li>
+<li>细胞壁的成分与功能<br>成分：主要是纤维素与果胶<br>功能：对植物细胞有支持和保护作用</li>
+</ul>
+<h3 id="细胞器——系统内的分工合作"><a href="#细胞器——系统内的分工合作" class="headerlink" title="细胞器——系统内的分工合作"></a>细胞器——系统内的分工合作</h3><ul>
+<li>细胞器之间的分工<ul>
+<li>线粒体<br>是细胞有氧呼吸的主要场所</li>
+<li>叶绿体（只存在于植物细胞中）<br>叶绿体是绿色植物进行光合作用的细胞含有的细胞器，是植物细胞的“养料制造车间”和“能量转换站”    。</li>
+<li>内质网<br>内质网是细胞内蛋白质合成和加工的及脂质合成“车间”。（核糖体也是）</li>
+<li>高尔基体<br>对来自内质网的蛋白质进行加工、分类和包装的“车间”及“发送站”</li>
+<li>溶酶体<br>”消化车间“——内部含有多种水解酶，能分解衰老和损伤的细胞器，吞噬并杀死侵入细胞的病菌<br>与食物泡融合，将细胞吞噬进的食物或致病菌等大颗粒物质消化成生物大分子，残渣通过外排作用排除细胞<br>在细胞分化过程中，将某些衰老细胞器和生物大分子消化掉（这是机体自身重新组织的需要）</li>
+<li>液泡（只存在于植物细胞和低等动物细胞中）<br>调节细胞内的环境，同时使植物细胞保持坚挺</li>
+<li>核糖体<br>功能是细胞内蛋白质合成的分子机器<br>其成分主要由RNA(rRNA)和蛋白质构成</li>
+<li>中心体（只存在于低等植物细胞核动物细胞中）<br>与细胞的有丝分裂有关</li>
+</ul>
+</li>
+<li>细胞器之间的协调配合及细胞的生物膜系统</li>
+</ul>
+<h3 id="细胞核——系统的控制中心"><a href="#细胞核——系统的控制中心" class="headerlink" title="细胞核——系统的控制中心"></a>细胞核——系统的控制中心</h3><ul>
+<li>细胞核的分布和结构</li>
+<li>细胞核的功能</li>
+<li>模型构建</li>
+</ul>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">XiaoMouz</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://hexo.mou.best/2020/08/03/%E7%94%9F%E7%89%A9%E5%BF%85%E4%BF%AE%E4%B8%80%E7%AC%AC%E4%B8%80%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/">https://hexo.mou.best/2020/08/03/%E7%94%9F%E7%89%A9%E5%BF%85%E4%BF%AE%E4%B8%80%E7%AC%AC%E4%B8%80%E4%BA%8C%E7%AB%A0%E7%AC%94%E8%AE%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://hexo.mou.best" target="_blank">小莫のHome</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div><div class="post_share"><div class="social-share" data-image="https://www.kanjiantu.com/images/2020/08/31/0k9I38.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2020/08/31/IDE%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E9%97%AE%E9%A2%98/"><img class="prev-cover" data-lazy-src="https://www.kanjiantu.com/images/2020/08/31/0k9YDT.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">安装Visual Studio IDE时遇到的一些小问题</div></div></a></div><div class="next-post pull-right"><a href="/2020/07/21/%E5%AF%B9Handsome%E4%B8%BB%E9%A2%98%E7%9A%84%E6%97%B6%E5%85%89%E6%9C%BA%E9%A1%B5%E9%9D%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B9%E6%B3%95/"><img class="next-cover" data-lazy-src="https://www.kanjiantu.com/images/2020/08/31/0k9CXf.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">对Handsome主题的时光机页面的一些改法</div></div></a></div></nav></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By XiaoMouz</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div></body></html>
